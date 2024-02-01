@@ -1,0 +1,17 @@
+[metadata]
+name = 'nexusstream'
+version = '0.3.0'
+description = 'khulnasoft.com python library'
+author = 'Giao Phan'
+author_email = 'giao@khulnasoft.com'
+license = 'MIT'
+url = 'https://github.com/khulnasoft/nexusstream-py'
+
+[requires]
+python_version = ['2.7', '3.5', '3.6', 'pypy', 'pypy3']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'
